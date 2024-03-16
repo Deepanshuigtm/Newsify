@@ -1,0 +1,12 @@
+.activity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activityBlock{
+    width:60%;
+}
+.activityBlock img{
+    width:100%
+}

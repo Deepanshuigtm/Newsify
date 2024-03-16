@@ -1,0 +1,90 @@
+
+.sideContainer{
+    display: flex;
+    flex-direction: column;
+    /* gap:1%; */
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    position: fixed;
+    background-color: #fff;
+    left: 1.25%;
+    border-radius: 7px;
+    /* height:80%; */
+}
+.sideContainerleft{
+    display: flex;
+    flex-direction: column;
+    /* gap:1%; */
+    align-items: center;
+    justify-content: center;
+    width: 16.7%;
+    position: fixed;
+    background-color: #fff;
+    Right: 1.25%;
+    border-radius: 7px;
+    /* height:80%; */
+}
+.sideContainer div{
+    margin-right: 2rem;
+}
+.newsdateSub ul{
+    list-style: none;
+}
+.newsdateSub ul li p{
+    padding: 0.3rem 1rem;
+    transition: all 0.4s;
+    border-radius: 7px;
+}
+.newsdateSub ul li p:hover{
+    background-color: #ffdada;
+    cursor: pointer;
+}
+.newsdateSub ul li a{
+    color: rgb(54, 54, 54);
+}
+a:global(.active){
+    color: #ff5a5a!important;
+}
+.editContent{
+   position: absolute; 
+   top:13rem;
+   background-color: #fff;
+   padding:1rem 1rem;
+   border-radius: 7px;
+   width: 90%;
+}
+.formAdd{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    font-size: 1.2rem;
+}
+.formAdd input{
+    padding: 0.6rem 1rem;
+    border-radius: 7px;
+    background-color: #ffdada;
+    border: none;
+    color: rgb(24, 24, 24);
+}
+.button{
+    background-color: #ff8686; 
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.4rem 0.7rem;
+    transition: all 0.4s;
+}
+.button:hover{
+    background-color: #ff6262;
+}
+.closeIcon{
+    width: 2rem;
+}
+.iconcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.closeIcon:hover{
+    cursor:pointer;
+}

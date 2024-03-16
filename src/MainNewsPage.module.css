@@ -1,0 +1,137 @@
+
+.news-container{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.25%;
+    /* position: absolute; */
+}
+.mainNews{
+    width:60%;
+}
+.mainNews img{
+    width:100%;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+.article{
+    background-color: #fff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center ;
+    flex-direction: column;
+    padding:0 2rem ;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+}
+.booked{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    padding:0 2rem ;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    padding-top: 1rem;
+}
+.booked a{
+    margin: 2rem 0;
+    background-color: #ff8b8b;
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #ffffff;
+    padding:0.2rem 0.2rem;
+    transition: all 0.5s;
+}
+.date{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.article a{
+    margin: 1rem 0;
+    background-color: #ff8b8b;
+    width:13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #ffffff;
+    padding:0.2rem 0.2rem;
+    transition: all 0.4s;
+}
+.article a:hover, .booked a:hover{
+    cursor: pointer;
+    background-color: #ff5454;
+    color: #fff;
+}
+.heasbook{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.ionbookmark{
+    width: 2rem !important;
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+}
+.ionbookmark:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.ionbooked{
+    width: 2.4rem !important;
+    background-color: rgb(19, 2, 2);
+    transition: all 0.2s ease-in;
+}
+.btnContainer{
+    display:flex ;
+    align-items: center;
+    gap:6rem
+}
+.btnContainer img{
+    width:9%;
+    margin-bottom: 0;
+}
+.btnContainer img:hover, .confirmContent img:hover{
+    cursor: pointer;
+}
+.confirmContent{
+    position: fixed;
+    top:40vh;
+    left:27%;
+    background-color: rgb(255, 237, 237);
+    padding:1rem 5%;
+    padding-top: 3rem;
+    border-radius: 7px;
+    z-index: 99;
+    width:40%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    gap:3rem
+}
+.confirmContent h3{
+    position: relative;
+}
+.confirmContent img{
+    width:6%;
+    position: absolute;
+    top:0;
+    right:0 ;
+}
+.confirmBtn{
+    display: flex;
+    gap:10%
+}
+.confirmBtn button{
+    background-color: #ff8a8a;
+    font-weight: bold;transition: all 0.4s;
+}
+.confirmBtn button:hover{
+    background-color: #ff6565;
+}
